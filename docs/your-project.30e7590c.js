@@ -1,0 +1,2 @@
+document.querySelector("#toggle-theme").addEventListener("click",()=>{document.documentElement.classList.toggle("light-theme")}),window.matchMedia("(prefers-color-scheme: light)").matches&&document.documentElement.classList.add("light-theme"),document.querySelector("#scroll-down").addEventListener("click",()=>{window.scrollTo({top:document.querySelector("#about-me").offsetTop-20})});
+//# sourceMappingURL=your-project.30e7590c.js.map
