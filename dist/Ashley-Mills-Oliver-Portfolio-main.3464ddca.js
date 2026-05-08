@@ -207,15 +207,15 @@
       });
     }
   }
-})({"io2N8":[function(require,module,exports,__globalThis) {
+})({"6gbjq":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "439701173a9199ea";
+var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "ba2beaa036960861";
+module.bundle.HMR_BUNDLE_ID = "0907ca6d3464ddca";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -713,18 +713,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"bNJxx":[function(require,module,exports,__globalThis) {
-document.querySelector("#toggle-theme").addEventListener("click", ()=>{
-    document.documentElement.classList.toggle("light-theme");
-});
-const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-if (prefersLight) document.documentElement.classList.add("light-theme");
-document.querySelector("#scroll-down").addEventListener("click", ()=>{
-    window.scrollTo({
-        top: document.querySelector("#about-me").offsetTop - 20
-    });
-});
+},{}],"j4kuM":[function(require,module,exports,__globalThis) {
 
-},{}]},["io2N8","bNJxx"], "bNJxx", "parcelRequire4d1a", {})
+},{}]},["6gbjq","j4kuM"], "j4kuM", "parcelRequire4d1a", {})
 
-//# sourceMappingURL=Ashley-Mills-Oliver-Portfolio-main.36960861.js.map
+//# sourceMappingURL=Ashley-Mills-Oliver-Portfolio-main.3464ddca.js.map
