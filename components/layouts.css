@@ -13,7 +13,7 @@
     gap: var(--gap);
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 64rem) {
     .layout-section {
         padding-bottom: 100px;
     }
